@@ -1,11 +1,12 @@
 .container {
-    width: 250px;
+    width:100%;
     display: flex;
     align-items: flex-start;
+    /* overflow-x: hidden; */
     gap: 20px;
     flex-wrap: wrap;
     padding: 5px 10px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .dashboard {
@@ -13,7 +14,7 @@
     align-content: center;
     flex-direction: column;
     gap: 5px;
-    width : 300px;
+    width : 250px;
     background-color: whitesmoke;
 }
 
